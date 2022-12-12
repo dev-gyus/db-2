@@ -37,6 +37,7 @@ public class JdbcTemplateItemRepositoryV3 implements ItemRepository {
                 .withTableName("item")
                 .usingGeneratedKeyColumns("id");
 //                .usingColumns("item_name", "price", "quantity") // 생략 가능
+        //ddd
     }
 
     @Override
